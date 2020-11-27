@@ -12,6 +12,7 @@ if you're in windows use rust msvc toolchain and be sure that postgres bin in yo
 
 # Run
 ```
+cargo build
 diesel migration run
 cargo run --package rocket-api --bin rocket-api
 ```
