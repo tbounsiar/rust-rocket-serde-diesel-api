@@ -1,0 +1,23 @@
+[package]
+name = "rocket-api"
+version = "0.1.0"
+authors = ["tahar.bounsiar <tahar.bounsiar@engie.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.6"
+serde = "1.0.117"
+diesel = { version = "1.4.4", features = ["postgres"] }
+dotenv = "0.15.0"
+
+[dependencies.serde_derive]
+version = "1.0.117"
+[dependencies.serde_json]
+version = "1.0.59"
+
+[dependencies.rocket_contrib]
+version = "0.4.6"
+default_features = false
+features = ["serve", "json", "diesel_postgres_pool"]
