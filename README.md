@@ -1,5 +1,7 @@
-Rocket API example
+Rus API example
 =================
+## Intro
+This is an example of GRUD Json api using rust lang and rocket, diesel orm and serde json libraries.
 ## Requirements
 * Rust (nightly)
 * Postgres
