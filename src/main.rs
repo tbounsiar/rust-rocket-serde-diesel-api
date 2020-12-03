@@ -12,6 +12,7 @@ extern crate serde_derive;
 use rocket_contrib::serve::StaticFiles;
 
 mod api;
+mod common;
 mod config;
 
 fn main() {
